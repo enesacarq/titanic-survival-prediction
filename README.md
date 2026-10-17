@@ -13,7 +13,7 @@ An end-to-end machine learning project that predicts whether Titanic passengers 
 ---
 ## Proje Akışı / Pipeline
 1. Library and Dataset Import 
-2. Exploratory Data Analysis
+2. Exploratory Data Analysis (EDA)
 3. Missing Value Imputation
 4. Outlier Handling
 5. Feature Engineering
@@ -21,15 +21,14 @@ An end-to-end machine learning project that predicts whether Titanic passengers 
    - Categorical Variable Encoding (Encoding)
 6. Post-Feature Engineering EDA
 7. Feature Selection
-8. Train-Test Split
-9. Model Training 
+8. Model Training 
    - Logistic Regression
    - Random Forest
-10. Model Evaluation and Cross Validation
-11. Model Comparison
-12. Hyperparameter Tuning
-13. Feature Importance
-14. Feature Reduction and Retraining
+9. Model Evaluation and Cross Validation
+10. Model Comparison
+11. Hyperparameter Tuning
+12. Feature Importance
+13. Feature Reduction and Retraining
 
 
 
@@ -37,19 +36,38 @@ An end-to-end machine learning project that predicts whether Titanic passengers 
 
 ## Teknolojiler / Technologies
 - **Pandas**
-- **Numpy**
+- **NumPy**
 - **Matplotlib**
 - **Scikit-learn** (Logistic Regression, Random Forest, GridSearchCV, metrics)
 - **Jupyter**
 
 ---
 
-## Gereksinimler / Requirements
-
+## Sonuçlar / Results
+![graph](output.png)
 ---
 
 ## Kurulum / Installation
+1. Depoyu klonlayın:
 
+   ```bash
+   git clone https://github.com/your-username/titanic-data-analysis.git
+   ```
+2. Proje klasörüne gidin:
+
+   ```bash
+   cd titanic-data-analysis
+   ```
+3. Gerekli kütüphaneleri yükleyin:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Jupyter Notebook'u başlatın :
+
+   ```bash
+   jupyter notebook titanic_survival_analysis.ipynb
+   ```
 ---
 
 ## License
